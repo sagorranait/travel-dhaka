@@ -7,3 +7,19 @@
 p {
   font-family: 'Poppins', sans-serif;
 }
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Basic CSS End */
+
+/* Header CSS Start */
+#traveHeader {
+  background-image: url('../images/banner.png');
+  height: 750px;
+}
+
+/* Header CSS End */
