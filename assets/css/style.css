@@ -38,7 +38,7 @@ a {
 /* Header CSS Start */
 #traveHeader {
   background-image: url('../images/banner.png');
-  height: 900px;
+  height: 860px;
   margin-bottom: 12%;
 }
 
@@ -68,7 +68,7 @@ a {
 
 .popular-places p {
   font-size: 18px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .popular-places .places {
@@ -78,6 +78,7 @@ a {
 .popular-places .place {
   height: 350px;
   background: #ddd;
+  transition: .2s;
 }
 
 #popularPlaces .ahsan-monjil {
@@ -112,6 +113,8 @@ a {
   width: 100%;
   height: 100%;
   background: #000000b8;
+  padding-bottom: 50px;
+  cursor: pointer;
 }
 
 .popular-places .place .overlay h3 {
@@ -122,6 +125,16 @@ a {
 .popular-places .place .overlay p {
   font-size: 14px;
   color: #ffc74a;
+  margin-bottom: 0;
+}
+
+.popular-places .place .overlay a {
+  display: none;
+}
+
+.popular-places .place:hover .overlay a {
+  display: block;
+  cursor: pointer;
 }
 
 /* Header CSS End */
