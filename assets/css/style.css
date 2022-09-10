@@ -1,10 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -20,6 +16,12 @@ p {
 #traveHeader {
   background-image: url('../images/banner.png');
   height: 750px;
+}
+
+.offcanvas-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #606f81;
 }
 
 /* Header CSS End */
