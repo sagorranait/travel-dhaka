@@ -4,10 +4,33 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.trave-btn {
+  display: inline-block;
+  padding: 15px 28px;
+  background: #ffc74a;
+  border: 1px solid #ffc74a;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b98000;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: .4s;
+}
+
+.trave-btn:hover {
+  background: transparent;
+  color: #fff;
 }
 
 /* Basic CSS End */
@@ -22,6 +45,24 @@
   font-size: 20px;
   font-weight: bold;
   color: #606f81;
+}
+
+.header-content {
+  place-items: center;
+  height: 550px;
+}
+
+.header-content .banner-text h1 {
+  font-size: 92px;
+}
+
+.header-content .banner-text h1 span {
+  color: #ed6950;
+}
+
+.header-content .banner-text p {
+  font-size: 18px;
+  opacity: 0.7;
 }
 
 /* Header CSS End */
