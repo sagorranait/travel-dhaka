@@ -38,7 +38,8 @@ a {
 /* Header CSS Start */
 #traveHeader {
   background-image: url('../images/banner.png');
-  height: 850px;
+  height: 900px;
+  margin-bottom: 15%;
 }
 
 .offcanvas-title {
@@ -65,10 +66,9 @@ a {
   opacity: 0.7;
 }
 
-.popular-places {}
-
 .popular-places p {
   font-size: 18px;
+  margin-bottom: 45px;
 }
 
 .popular-places .places {
@@ -76,10 +76,36 @@ a {
 }
 
 .popular-places .place {
-  width: 370px !important;
-  height: 430px;
+  height: 410px;
   background: #ddd;
-  margin-right: 30px;
+}
+
+#popularPlaces .ahsan-monjil {
+  background-image: url('../images/ahsan-monjil.jpg');
+}
+
+#popularPlaces .air-force {
+  background-image: url('../images/bangladesh-air-force.jpg');
+}
+
+#popularPlaces .bd-national {
+  background-image: url('../images/bangladesh-national.jpg');
+}
+
+#popularPlaces .bd-sonargaon {
+  background-image: url('../images/sonargaon.jpg');
+}
+
+#popularPlaces .hatirjheel {
+  background-image: url('../images/hatirjheel.jpg');
+}
+
+#popularPlaces .lalbag-fort {
+  background-image: url('../images/lalbag-fort.jpg');
+}
+
+#popularPlaces .ramna-park {
+  background-image: url('../images/ramna-park.jpg');
 }
 
 /* Header CSS End */
