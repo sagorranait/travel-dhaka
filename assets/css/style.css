@@ -76,9 +76,10 @@ a {
 }
 
 .popular-places .place {
-  width: 370px;
+  width: 370px !important;
   height: 430px;
   background: #ddd;
+  margin-right: 30px;
 }
 
 /* Header CSS End */
