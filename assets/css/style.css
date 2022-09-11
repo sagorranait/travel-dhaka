@@ -16,11 +16,12 @@ a {
 
 .trave-btn {
   display: inline-block;
-  padding: 15px 28px;
+  padding: 10px 22px;
   background: #ffc74a;
   border: 1px solid #ffc74a;
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: bold;
   color: #b98000;
   text-transform: uppercase;
@@ -29,8 +30,7 @@ a {
 }
 
 .trave-btn:hover {
-  background: transparent;
-  color: #fff;
+  color: #b98000;
 }
 
 /* Basic CSS End */
@@ -39,7 +39,7 @@ a {
 #traveHeader {
   background-image: url('../images/banner.png');
   height: 900px;
-  margin-bottom: 15%;
+  margin-bottom: 12%;
 }
 
 .offcanvas-title {
@@ -68,7 +68,7 @@ a {
 
 .popular-places p {
   font-size: 18px;
-  margin-bottom: 45px;
+  margin-bottom: 70px;
 }
 
 .popular-places .places {
@@ -76,7 +76,7 @@ a {
 }
 
 .popular-places .place {
-  height: 410px;
+  height: 350px;
   background: #ddd;
 }
 
@@ -106,6 +106,22 @@ a {
 
 #popularPlaces .ramna-park {
   background-image: url('../images/ramna-park.jpg');
+}
+
+.popular-places .place .overlay {
+  width: 100%;
+  height: 100%;
+  background: #000000b8;
+}
+
+.popular-places .place .overlay h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.popular-places .place .overlay p {
+  font-size: 14px;
+  color: #ffc74a;
 }
 
 /* Header CSS End */
