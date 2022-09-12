@@ -138,3 +138,31 @@ a {
 }
 
 /* Header CSS End */
+
+/* Footer CSS Start */
+#travelFooter {
+  padding: 110px 0;
+}
+
+#travelFooter .back-title {}
+
+#travelFooter .back-title h2 {
+  font-size: 300px;
+  line-height: 220px;
+  filter: drop-shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
+}
+
+#travelFooter .footer-text {
+  text-align: center;
+}
+
+#travelFooter .footer-text img {
+  width: 35px;
+  margin-bottom: 24px;
+}
+
+#travelFooter .footer-text p {}
+
+#travelFooter .footer-text p a {}
+
+/* Footer CSS End */
