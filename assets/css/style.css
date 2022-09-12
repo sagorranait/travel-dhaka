@@ -139,6 +139,16 @@ a {
 
 /* Header CSS End */
 
+/* Main CSS Start */
+#travelMain {}
+
+#travelMain .newsletter {
+  background-image: url('../images/dhaka2.jpg');
+  padding: 200px 0;
+}
+
+/* Main CSS End */
+
 /* Footer CSS Start */
 #travelFooter {
   position: relative;
