@@ -158,11 +158,17 @@ a {
 
 #travelFooter .footer-text img {
   width: 35px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
-#travelFooter .footer-text p {}
+#travelFooter .footer-text p {
+  font-size: 18px;
+  color: #606f81;
+}
 
-#travelFooter .footer-text p a {}
+#travelFooter .footer-text p a {
+  color: #ffc74a;
+  text-decoration: underline;
+}
 
 /* Footer CSS End */
