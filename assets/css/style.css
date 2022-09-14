@@ -33,6 +33,22 @@ a {
   color: #b98000;
 }
 
+.search-input {
+  font-size: 18px;
+  color: #606f81;
+  border: 1px solid #ffc74a;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-btn {
+  right: 30px;
+  top: 18px;
+}
+
 /* Basic CSS End */
 
 /* Header CSS Start */
@@ -140,11 +156,102 @@ a {
 /* Header CSS End */
 
 /* Main CSS Start */
-#travelMain {}
+#travelMain .whereTo-go {
+  padding-bottom: 30px;
+}
+
+#travelMain .whereTo-go h2 {
+  font-size: 30px;
+  color: #606f81;
+  margin-bottom: 55px;
+}
+
+#travelMain .whereTo-go .search-place {
+  width: 810px;
+}
+
+#travelMain .explore-city {
+  position: relative;
+  background: #bdc8d924;
+  padding: 70px 0;
+}
+
+#travelMain .explore-city h3 {
+  font-size: 30px;
+  color: #606f81;
+  margin-bottom: 70px;
+}
+
+#travelMain .explore-city .city-content h2 {
+
+  color: #f8c759;
+}
+
+#travelMain .explore-city .city-content p {
+  font-size: 14px;
+  color: #606f81;
+  line-height: 30px;
+  padding: 15px 0;
+  margin: 0;
+}
+
+#travelMain .explore-city .city-content a {
+  margin-top: 10px;
+}
+
+#travelMain .explore-city .city-image {
+  z-index: 2;
+  position: relative;
+}
+
+#travelMain .city-image .image {
+  width: 430px;
+  height: 430px;
+  position: absolute;
+  top: -9%;
+  left: 26%;
+}
+
+#travelMain .city-image .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#travelMain .city-image .image-border {
+  width: 430px;
+  height: 430px;
+  border: 15px solid #ffc74a;
+  z-index: 9;
+}
+
+#travelMain .image-back-title {
+  width: 495px;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#travelMain .image-back-title h4 {
+  font-size: 225px;
+  line-height: 195px;
+  filter: drop-shadow(0 .125rem .25rem rgba(0, 0, 0, .075));
+}
 
 #travelMain .newsletter {
   background-image: url('../images/dhaka2.jpg');
   padding: 200px 0;
+}
+
+#travelMain .newsletter .content h2 {
+  font-size: 92px;
+}
+
+#travelMain .newsletter .content p {
+  font-size: 18px;
+  margin: 25px 0 0;
 }
 
 /* Main CSS End */
@@ -178,7 +285,8 @@ a {
   color: #606f81;
 }
 
-#travelFooter .footer-text p a {
+#travelFooter .footer-text p a,
+#travelMain .newsletter .content p a {
   color: #ffc74a;
   text-decoration: underline;
 }
