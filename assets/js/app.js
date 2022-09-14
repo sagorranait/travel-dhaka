@@ -19,3 +19,15 @@ $('#popularPlaces').owlCarousel({
       }
   }
 })
+
+// ColorFull tab
+
+$('#colorful').colorfulTab();
+$('#colorful').colorfulTab({
+  // 'elliptic', 'flatline'
+  theme: '',
+});
+$('#colorful').colorfulTab({
+  overlayColor: "#000",
+  overlayOpacity: ".6",
+});

@@ -170,6 +170,52 @@ a {
   width: 810px;
 }
 
+#travelMain .whereTo-go .tab {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#travelMain .whereTo-go .tab-btn {
+  list-style: none;
+  width: 810px;
+  margin: 0 auto 35px;
+}
+
+#travelMain .whereTo-go .tab-btn li {
+  padding: 6px 20px;
+  border: 1px solid #8d97a5;
+  border-radius: 30px;
+  flex: 0 1 auto;
+  margin-right: 10px;
+}
+
+#travelMain .whereTo-go .tab-btn li.active {
+  background: #ffc74a;
+  border: 1px solid #ffc74a;
+}
+
+#travelMain .whereTo-go .tab-btn li.active a {
+  color: #fff;
+}
+
+#travelMain .whereTo-go .tab-btn li a {
+  color: #8d97a5;
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  display: inline;
+}
+
+#travelMain .colorful-tab-wrapper:before {
+  color: #8d97a5;
+}
+
+#travelMain .colorful-tab-content {
+  color: #8d97a5;
+}
+
+
 #travelMain .explore-city {
   position: relative;
   background: #bdc8d924;
