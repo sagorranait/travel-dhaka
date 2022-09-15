@@ -212,9 +212,38 @@ a {
 }
 
 #travelMain .colorful-tab-content {
+  padding: 20px;
+  height: max-content;
   color: #8d97a5;
 }
 
+#travelMain .colorful-tab-content .place-item {
+  width: 370px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+#travelMain .colorful-tab-content .place-item .place-image {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#travelMain .colorful-tab-content .place-item .place-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#travelMain .colorful-tab-content .place-item .place-content {}
+
+#travelMain .colorful-tab-content .place-item .place-content h3 {}
+
+#travelMain .colorful-tab-content .place-item .place-content p {}
+
+#travelMain .colorful-tab-content .place-item .place-content a {}
 
 #travelMain .explore-city {
   position: relative;
