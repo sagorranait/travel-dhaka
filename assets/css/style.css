@@ -243,7 +243,12 @@ a {
 
 #travelMain .colorful-tab-content .place-item .place-content p {}
 
-#travelMain .colorful-tab-content .place-item .place-content a {}
+#travelMain .colorful-tab-content .place-item .place-content a {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #bdc8d9;
+  margin-top: 0px;
+}
 
 #travelMain .explore-city {
   position: relative;
