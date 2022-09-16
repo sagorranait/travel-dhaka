@@ -237,17 +237,25 @@ a {
   object-position: center;
 }
 
-#travelMain .colorful-tab-content .place-item .place-content {}
+#travelMain .colorful-tab-content .place-item .place-content {
+  padding: 25px 0;
+}
 
-#travelMain .colorful-tab-content .place-item .place-content h3 {}
+#travelMain .colorful-tab-content .place-item .place-content h3 {
+  font-size: 30px;
+  color: #606f81;
+}
 
-#travelMain .colorful-tab-content .place-item .place-content p {}
+#travelMain .colorful-tab-content .place-item .place-content p {
+  font-size: 14px;
+  color: #606f81;
+}
 
 #travelMain .colorful-tab-content .place-item .place-content a {
   background: #ffffff;
   border: 1px solid #ffffff;
   color: #bdc8d9;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 #travelMain .explore-city {
