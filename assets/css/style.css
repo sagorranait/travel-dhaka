@@ -215,10 +215,12 @@ a {
   padding: 20px;
   height: max-content;
   color: #8d97a5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 #travelMain .colorful-tab-content .place-item {
-  width: 370px;
   height: 350px;
   border-radius: 8px;
 }
