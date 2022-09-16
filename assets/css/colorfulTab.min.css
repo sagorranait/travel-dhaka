@@ -106,7 +106,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left: 45px;
 }
 
 .colorful-tab-content {
