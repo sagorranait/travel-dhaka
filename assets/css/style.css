@@ -258,6 +258,12 @@ a {
   margin-top: 5px;
 }
 
+#travelMain .colorful-tab-content .place-item:hover .place-content a {
+  background: #ffc74a;
+  border: 1px solid #ffc74a;
+  color: #b98000;
+}
+
 #travelMain .explore-city {
   position: relative;
   background: #bdc8d924;
