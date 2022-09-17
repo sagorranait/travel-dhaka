@@ -220,6 +220,24 @@ a {
   gap: 20px;
 }
 
+#journey {
+  margin-left: 65px;
+}
+
+#travelers,
+#sonargaon,
+#hatirjheel {
+  margin-left: -35px;
+}
+
+#guide {
+  margin-left: -40px;
+}
+
+#ahsanMonjil {
+  margin-left: -810px;
+}
+
 #travelMain .colorful-tab-content .place-item {
   height: 350px;
   border-radius: 8px;
