@@ -421,6 +421,7 @@ a {
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #ffc74a;
+  margin-bottom: 15px;
 }
 
 .search-result .sidebar-search-item .item-image {
