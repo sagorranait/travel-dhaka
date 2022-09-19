@@ -482,6 +482,7 @@ a {
 
   #travelHeader .navbar-area {
     width: 93%;
+    align-items: start;
     justify-content: space-between;
   }
 
@@ -661,7 +662,107 @@ a {
   /* Hearder section end */
 }
 
-@media screen and (min-width: 768px) and (max-width: 992.99px) {}
+@media screen and (min-width: 768px) and (max-width: 992.99px) {
+
+  .trave-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+
+  /* Hearder section start */
+  #travelHeader {
+    height: 666px;
+    margin-bottom: 60%;
+  }
+
+  #travelHeader .navbar-phone {
+    align-items: start;
+  }
+
+  #travelHeader .navbar-area {
+    width: 97%;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  #travelHeader .nav-section {
+    text-align: right;
+  }
+
+  #travelHeader .navbar-nav li {
+    text-align: right;
+    width: 115px;
+    padding-right: 17px;
+  }
+
+  #travelHeader .nav-search {
+    padding: 10px 0px 0px 4px;
+  }
+
+  .navbar-brand img {
+    width: 105px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+  }
+
+  .header-content {
+    height: 360px;
+  }
+
+  .header-content .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .header-content .banner-text p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .popular-places p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .popular-places .places {
+    padding: 10px;
+  }
+
+  .popular-places .place {
+    height: 310px;
+    background-position: center center;
+  }
+
+  .popular-places .place .overlay h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .popular-places .place .overlay p {
+    font-size: 14px;
+  }
+
+  .offcanvas-title {
+    font-size: 17px;
+  }
+
+  .search-input {
+    font-size: 17px;
+  }
+
+  .search-result .sidebar-search-item .item-content a {
+    font-size: 16px;
+  }
+
+  .search-result .sidebar-search-item .item-content p {
+    font-size: 13px;
+  }
+
+  /* Hearder section end */
+}
 
 @media screen and (min-width: 993px) and (max-width: 1200.99px) {}
 
