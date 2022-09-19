@@ -473,8 +473,30 @@ a {
     margin-bottom: 60%;
   }
 
+  #travelHeader .navbar-phone {
+    align-items: start;
+    padding: 0 20px;
+  }
+
+  .navbar-toggler {
+    margin-left: 75px;
+  }
+
+  #travelHeader .navbar-nav li {
+    padding-right: 17px;
+    text-align: right;
+  }
+
+  #travelHeader .nav-search {
+    padding: 10px 0px 0px 0px;
+  }
+
   .navbar-brand img {
     width: 100px;
+  }
+
+  .navbar-toggler img {
+    width: 35px;
   }
 
   .header-content {
