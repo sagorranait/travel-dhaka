@@ -458,7 +458,63 @@ a {
 /* Sidebar CSS End */
 
 /* Responsive Media Query */
-@media only screen and (max-width: 575.98px) {}
+@media only screen and (max-width: 575.98px) {
+
+  .trave-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+  }
+
+  /* Hearder section start */
+  #travelHeader {
+    height: 666px;
+    margin-bottom: 60%;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .header-content {
+    height: 360px;
+  }
+
+  .header-content .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .header-content .banner-text p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .popular-places p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .popular-places .places {
+    padding: 10px;
+  }
+
+  .popular-places .place {
+    height: 310px;
+    background-position: center center;
+  }
+
+  .popular-places .place .overlay h3 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .popular-places .place .overlay p {
+    font-size: 14px;
+  }
+
+  /* Hearder section end */
+}
 
 @media screen and (min-width: 576px) and (max-width: 767.99px) {}
 
