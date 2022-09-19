@@ -535,6 +535,22 @@ a {
     font-size: 14px;
   }
 
+  .offcanvas-title {
+    font-size: 17px;
+  }
+
+  .search-input {
+    font-size: 17px;
+  }
+
+  .search-result .sidebar-search-item .item-content a {
+    font-size: 16px;
+  }
+
+  .search-result .sidebar-search-item .item-content p {
+    font-size: 13px;
+  }
+
   /* Hearder section end */
 }
 
