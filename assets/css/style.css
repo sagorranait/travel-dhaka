@@ -579,7 +579,7 @@ a {
   }
 
   #travelFooter .back-title h2 {
-    font-size: 80px;
+    font-size: 83px;
     line-height: 80px;
   }
 
@@ -690,6 +690,31 @@ a {
   }
 
   /* Hearder section end */
+  /* Footer section Start */
+  #travelFooter {
+    padding: 50px 0;
+  }
+
+  #travelFooter .footer-text {
+    width: 100%;
+  }
+
+  #travelFooter .back-title h2 {
+    font-size: 83px;
+    line-height: 80px;
+  }
+
+  #travelFooter .footer-text p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  #travelFooter .footer-text img {
+    width: 28px;
+    margin-bottom: 3px;
+  }
+
+  /* Footer section End */
 }
 
 @media screen and (min-width: 768px) and (max-width: 992.99px) {
