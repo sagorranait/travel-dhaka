@@ -817,6 +817,25 @@ a {
   }
 
   /* Hearder section end */
+  /* Footer section Start */
+  #travelFooter {
+    padding: 70px 0;
+  }
+
+  #travelFooter .footer-text {
+    width: 100%;
+  }
+
+  #travelFooter .back-title h2 {
+    font-size: 190px;
+    line-height: 154px;
+  }
+
+  #travelFooter .footer-text p {
+    margin: 0;
+  }
+
+  /* Footer section End */
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200.99px) {
