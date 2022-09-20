@@ -767,6 +767,11 @@ a {
 @media screen and (min-width: 993px) and (max-width: 1200.99px) {
 
   /* Header Section Start */
+  #travelHeader {
+    height: 830px;
+    margin-bottom: 18%;
+  }
+
   #travelHeader .navbar-area {
     justify-content: space-between;
   }
@@ -777,6 +782,18 @@ a {
 
   #travelHeader .nav-search {
     padding-right: 5px;
+  }
+
+  .popular-places .place {
+    height: 295px;
+  }
+
+  .popular-places .place .overlay h3 {
+    font-size: 25px;
+  }
+
+  .search-result .sidebar-search-item .item-content a {
+    font-size: 18px;
   }
 
   /* Header Section End */
