@@ -714,7 +714,7 @@ a {
   }
 
   .header-content .banner-text h1 {
-    font-size: 45px;
+    font-size: 65px;
   }
 
   .header-content .banner-text p {
@@ -732,17 +732,17 @@ a {
   }
 
   .popular-places .place {
-    height: 310px;
+    height: 230px;
     background-position: center center;
   }
 
   .popular-places .place .overlay h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
   }
 
   .popular-places .place .overlay p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .offcanvas-title {
