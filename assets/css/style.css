@@ -764,7 +764,23 @@ a {
   /* Hearder section end */
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200.99px) {}
+@media screen and (min-width: 993px) and (max-width: 1200.99px) {
+
+  /* Header Section Start */
+  #travelHeader .navbar-area {
+    justify-content: space-between;
+  }
+
+  #travelHeader .navbar-nav li {
+    padding-right: 25px;
+  }
+
+  #travelHeader .nav-search {
+    padding-right: 5px;
+  }
+
+  /* Header Section End */
+}
 
 @media screen and (min-width: 1201px) and (max-width: 1399.99px) {}
 

@@ -1,0 +1,4 @@
+git add .
+git commit -m "Responsive for Laptop-View, Slider Section is done."
+git commit --amend -m "Responsive for Laptop-View, Slider Section is done." --date="2022-09-20 20:45:30"
+git push
