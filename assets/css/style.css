@@ -799,6 +799,22 @@ a {
   /* Header Section End */
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1399.99px) {}
+@media screen and (min-width: 1201px) and (max-width: 1399.99px) {
+
+  /* Header Section Start */
+  #travelHeader {
+    margin-bottom: 18%;
+  }
+
+  #travelHeader .navbar-area {
+    justify-content: space-between;
+  }
+
+  #travelHeader .nav-search {
+    padding-right: 10px;
+  }
+
+  /* Header Section End */
+}
 
 /* Responsive Media Query */
