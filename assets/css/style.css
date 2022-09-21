@@ -871,6 +871,14 @@ a {
   }
 
   /* Header Section End */
+
+  /* Footer section Start */
+  #travelFooter .back-title h2 {
+    font-size: 260px;
+    line-height: 195px;
+  }
+
+  /* Footer section End */
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1399.99px) {
